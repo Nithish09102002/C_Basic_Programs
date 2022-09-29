@@ -1,0 +1,13 @@
+#include<iostream>
+#include<iomanip>
+#include<math.h>
+using namespace std;
+int main()
+{
+    float a,b;
+    cin>>a;
+    b=ceil(a);
+    cout<<floor(a)<<endl;
+    cout<<fixed<<setprecision(1)<<b<<endl;
+    cout<<fixed<<setprecision(1)<<floor(a);
+}
