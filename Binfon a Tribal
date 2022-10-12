@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    int b,c,d,e;
+    cin>>a;
+    b=a%365;
+    c=a/365;
+    d=b/7;
+    e=(a-((c*365)+(d*7)));
+    cout<<c<<endl<<d<<endl<<e;
+    
+    
+}
