@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a;
+    b=((a*a)%10);
+    if(a<=10)
+    {
+    if(a==b)
+    {
+        cout<<("Automorphic number");
+    }
+    else
+    {
+        cout<<("Not Automorphic number");
+    }
+    }
+    else
+    {
+        cout<<("invalid input");
+    }
+}
