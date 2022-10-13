@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    int d,e;
+    cin>>a>>b>>c;
+    d=b*75;
+    e=c*50;
+    if(a>=(d+e))
+    {
+        cout<<"Boat is stable";
+    }
+    else
+    {
+        cout<<"Boat will drown";
+    }
+    
+}
