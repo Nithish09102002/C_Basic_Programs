@@ -1,0 +1,48 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    int c;
+    cin>>a>>b;
+    c=b%4;
+    if(a==2)
+    {
+    if(c==0)
+    {
+        cout<<"Number of days is 29";
+    }
+    else
+    {
+        cout<<"Number of days is 28";
+    }
+    }
+    else if(a==3)
+    {
+        cout<<"Number of days is 31";
+    }
+    else if(a==5)
+    {
+        cout<<"Number of days is 31";
+    }
+    else if(a==7)
+    {
+        cout<<"Number of days is 31";
+    }
+    else if(a==8)
+    {
+        cout<<"Number of days is 31";
+    }
+    else if(a==10)
+    {
+        cout<<"Number of days is 31";
+    }
+    else if(a==12)
+    {
+        cout<<"Number of days is 31";
+    }
+    else
+    {
+    cout<<"Number of days is 30";
+    }
+}
