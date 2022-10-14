@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    float a,b;
+    cin>>a>>b;
+    float c=(a/(b*b))*10000;
+    if(c>18.5 && c<25)
+    {
+        cout<<"You are normal. Go walking daily and maintain it.";
+    }
+    else if(c<18.5)
+    {
+        cout<<"You are underweight. Have an apple daily";
+    }
+    else if(c>25)
+    {
+        cout<<"You are obese. Go to doctor.";
+    }
+}
