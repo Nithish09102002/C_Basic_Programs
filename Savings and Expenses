@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d,e;
+    int f;
+    cin>>a>>b>>c>>d>>e;
+    f=b+c+d+e;
+    if(a<f)
+    {
+        cout<<"He wants to work hard";
+    }
+    else
+    {
+        cout<<"he can save the money";
+    }
+}
