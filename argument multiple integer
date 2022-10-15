@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int subb(int a,int b)
+{
+    int c=a-b;
+    return c;
+}
+int main()
+{
+    cout<<subb(83,32);
+    return 0;
+}
