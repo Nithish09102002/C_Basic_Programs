@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+void addition(int a)
+{
+    cout<<"Number Is = "<<a;
+}
+
+int main()
+{
+    addition(2);
+    return 0;
+}
