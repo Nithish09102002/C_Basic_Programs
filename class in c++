@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+class Aclass{
+  public;
+    void printhello(){
+    cout<<"Hello";
+    }
+    ];
+int main()
+{
+Aclass object;
+object printhello();
+return 0;
+}
